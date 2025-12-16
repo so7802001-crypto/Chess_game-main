@@ -1,0 +1,24 @@
+import pygame as p
+
+# Dimensions
+BOARD_WIDTH = 600
+BOARD_HEIGHT = 600
+# MOVE_LOG_PANEL_WIDTH = 270
+# MOVE_LOG_PANEL_HEIGHT = BOARD_HEIGHT
+DIMENSION = 8
+SQ_SIZE = BOARD_HEIGHT // DIMENSION
+MAX_FPS = 15
+
+# Colors
+COLORS = [p.Color(240, 217, 181), p.Color(181, 136, 99)]
+
+# Difficulty Levels (Depth)
+DIFFICULTY = {
+    'EASY': 2,
+    'MEDIUM': 3,
+    'HARD': 5
+}
+
+# AI Scores
+CHECKMATE = 1000
+STALEMATE = 0
